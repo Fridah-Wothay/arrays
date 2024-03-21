@@ -1,11 +1,11 @@
 
 // 1
 
-const array = [3,7,34,90,12];
-const last = array[array.length-1];
+let array = [3,7,34,90,12];
+let last = array[array.length-1];
 console.log(last);
 
-const arr2 = ["true", "green", "where", 12, 56];
+const arr2 = [true, "green", "where", 12, 56];
 const findElement = arr2[arr2.length-1];
 console.log(findElement);
 
@@ -34,5 +34,18 @@ console.log(itemvar);
    console.log(word("sevink"));
 
    // 5
-   let arr5 = ["the","way","x","4"];
+   let arr5 = ["the", "way", "x",4]
+   arr5.forEach(word =>{
+  if(word== 'way'){
+    console.log(word)
+  }
+  else{
+    console.log('the search was not found')
+  }
+   })
+
+
+
+
+   
 
